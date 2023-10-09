@@ -1,0 +1,10 @@
+
+  .todo-List {
+margin-left: 30vw;
+width:  30vw;
+  }
+
+.todo-List td {
+    padding: 5px; 
+    vertical-align: top; 
+  }
