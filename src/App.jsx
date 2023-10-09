@@ -6,6 +6,7 @@ import './components/Todolist.css'
 
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import TabApp from './components/TabApp'
 
 
 
@@ -16,7 +17,8 @@ function App() {
     <>
     <LocalizationProvider>
       <div>
-        <Todolist></Todolist>
+        <TabApp></TabApp>
+        
         
       </div>
       </LocalizationProvider>
@@ -24,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
